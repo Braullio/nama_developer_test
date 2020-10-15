@@ -5,7 +5,7 @@ class CreateRows < ActiveRecord::Migration[5.2]
   def change
     create_table :rows do |t|
       t.timestamps
-      t.references :archives, foreign_key: true
+      t.references :archive, foreign_key: true
       t.string     :buyer
       t.text       :description
       t.float      :unitary_price
