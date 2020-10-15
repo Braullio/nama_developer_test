@@ -18,6 +18,9 @@ Sua aplicação web DEVE:
 6. Ter um teste de model e controller automatizado para a funcionalidade pedida
 7. Ter uma boa aparecia e ser fácil de usar
 
+## Tabelas
+![alt text](https://github.com/Braullio/nama_developer_test/blob/main/app/assets/images/readme/table.png?raw=true)
+
 ## Instalação
 
 ## Configuração
