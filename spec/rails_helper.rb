@@ -10,7 +10,7 @@ require 'capybara/rspec'
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
-require 'database_cleaner'
+require 'database_cleaner/active_record'
 DatabaseCleaner.strategy = :truncation
 DatabaseCleaner.clean
 
