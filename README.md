@@ -1,7 +1,7 @@
 # Nama Developer Test
 
 ## Preview
-<GIF>
+GIF
 
 ## Descrição do Projeto
 Você recebeu um arquivo de texto com os dados de vendas da empresa. Precisamos criar uma maneira para que estes dados sejam importados para um banco de dados.
@@ -23,6 +23,16 @@ Sua aplicação web DEVE:
 
 ## Instalação
 
+
 ## Configuração
+Na pasta do projeto execute os comandos abaixo:
+```
+chmod +777 configure_project.sh
+./configure_project.sh
+```
 
 ## Execução
+Na pasta do projeto execute o comando abaixo:
+```
+rails s 
+```
