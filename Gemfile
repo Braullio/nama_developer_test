@@ -32,7 +32,7 @@ group :test do
   gem 'selenium-webdriver'
   # TDD
   gem 'capybara', '~> 3.8'
-  gem 'database_cleaner'
+  gem 'database_cleaner-active_record'
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
   gem 'rspec-rails', '3.8'
   gem 'webdrivers', '~> 3.0'
