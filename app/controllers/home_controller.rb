@@ -6,5 +6,17 @@ class HomeController < ApplicationController
 
   def new; end
 
-  def create; end
+  def show; end
+
+  def create
+    file_contents = File.read(params[:file].path)
+
+    array = []
+    file_contents.each_line do |line|
+      array << line.gsub("\n", '').split("\t")
+    end
+
+    array
+    byebug
+  end
 end
